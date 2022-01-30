@@ -1,5 +1,5 @@
-## ASSIGNMENT 1 ##
---------------------------------------------------------------------------------------------------------------
+#ASSIGNMENT 1
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 *1. Write a function that takes a list of lists and returns the value of all of the symbols in it, where each symbol adds or takes something from the total score. Symbol values:
 
@@ -32,9 +32,9 @@ check_score([
   ["!!", "X", "O"]
 ]) ➞ 0
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-*2. Create a function that takes a variable number of arguments, each argument representing the number of items in a group, and returns the number of permutations (combinations) of items that you could get by taking one item from each group.
+2. Create a function that takes a variable number of arguments, each argument representing the number of items in a group, and returns the number of permutations (combinations) of items that you could get by taking one item from each group.
 
 Examples
 
@@ -44,9 +44,9 @@ combinations(3, 7, 4) ➞ 84
 
 combinations(2, 3, 4, 5) ➞ 120
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-*3. Create a function that takes a string as an argument and returns the Morse code equivalent.
+3. Create a function that takes a string as an argument and returns the Morse code equivalent.
 
 Examples
 
@@ -69,9 +69,9 @@ char_to_dots = {
   '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
 }
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-*4.  Write a function that takes a number and returns True if it's a prime; False otherwise. The number can be 2^64-1 (2 to the power of 63, not XOR). With the standard technique it would be O(2^64-1), which is much too large for the 10 second time limit.
+4.  Write a function that takes a number and returns True if it's a prime; False otherwise. The number can be 2^64-1 (2 to the power of 63, not XOR). With the standard technique it would be O(2^64-1), which is much too large for the 10 second time limit.
 
 Examples
 
@@ -82,9 +82,9 @@ prime(56963) ➞ True
 prime(5151512515524) ➞ False
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-*5.  Create a function that converts a word to a bitstring and then to a boolean list based on the following criteria:
+5.  Create a function that converts a word to a bitstring and then to a boolean list based on the following criteria:
 
     1. Locate the position of the letter in the English alphabet (from 1 to 26).
     2. Odd positions will be represented as 1 and 0 otherwise.
@@ -94,11 +94,11 @@ prime(5151512515524) ➞ False
  Examples
 
 to_boolean_list("deep") ➞ [False, True, True, False]
-# deep converts to 0110
-# d is the 4th alphabet - 0
-# e is the 5th alphabet - 1
-# e is the 5th alphabet - 1
-# p is the 16th alphabet - 0
+* deep converts to 0110
+* d is the 4th alphabet - 0
+* e is the 5th alphabet - 1
+* e is the 5th alphabet - 1
+* p is the 16th alphabet - 0
 
 to_boolean_list("loves") ➞ [False, True, False, True, True]
 
