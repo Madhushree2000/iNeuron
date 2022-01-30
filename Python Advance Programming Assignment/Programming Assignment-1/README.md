@@ -1,7 +1,7 @@
-#ASSIGNMENT 1
+# ASSIGNMENT 1
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-*1. Write a function that takes a list of lists and returns the value of all of the symbols in it, where each symbol adds or takes something from the total score. Symbol values:
+1. Write a function that takes a list of lists and returns the value of all of the symbols in it, where each symbol adds or takes something from the total score. Symbol values:
 
 "#" = 5
 
